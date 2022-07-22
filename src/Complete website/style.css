@@ -1,0 +1,45 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.navbar-brand {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.m-left {
+  margin-left: auto;
+}
+.nav-item {
+  font-size: 1.2rem;
+}
+.navbar {
+  background-color: aliceblue !important;
+  color: #3b3b3b;
+}
+.home {
+  color: #6e6e6e;
+  margin-top: 5vh;
+  /* border: 1rem solid; */
+}
+.animated {
+  animation: up-down 2s ease-out infinite alternate-reverse both;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.contact {
+  position: absolute;
+  right: 35%;
+  top: 20%;
+  width: 30rem;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(13px);
+  }
+  100% {
+    transform: translateY(-13px);
+  }
+}

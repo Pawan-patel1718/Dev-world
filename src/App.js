@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactRouter from "./Router/ReactRouter";
+import { BrowserRouter } from "react-router-dom";
 
-function App() {
+// import CovidDetail from "./Components/CovidDetail";
+// import Axios from "./Components/Axios";
+// import PostRequest from "./Components/PostRequest";
+// import CovidDetail from "./Components/CovidDetail";
+// import Bootstrap from "./Bootstrap";
+// import ToDoList from "./ToDoList";
+// import Stack from '@mui/material/Stack';
+// import Button from '@mui/material/Button';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <ToDoList /> */}
+      {/* <Bootstrap /> */}
+      {/* <CovidDetail /> */}
+      {/* <PostRequest /> */}
+      {/* <Axios /> */}
+      <BrowserRouter>
+        <ReactRouter />
+      </BrowserRouter>
+    </>
   );
 }
-
-export default App;

@@ -1,0 +1,41 @@
+import React from 'react'
+
+export default function Contact(props) {
+    return (
+
+        <>
+            <h1 className="bg-dark text-light text-center">Welcome to {props.topic} </h1>
+            <div className="container ">
+                <div className="row">
+                    <div className="col">
+                        <div className="card">
+                            <img
+                                src="https://picsum.photos/199/200"
+                                className="card-img-top"
+                                alt="..."
+                            />
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <img
+                                src="https://picsum.photos/200/202"
+                                className="card-img-top"
+                                alt="..."
+                            />
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <img
+                                src="https://picsum.photos/200/197"
+                                className="card-img-top"
+                                alt="..."
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
