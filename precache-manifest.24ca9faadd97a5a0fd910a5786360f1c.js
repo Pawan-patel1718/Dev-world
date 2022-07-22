@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/Dev-world/static/media/web devlopment.ab3614e8.webp"
   },
   {
-    "revision": "6c742a8bde531f8df536f8439a97d2a9",
+    "revision": "2683abdc381f08891b4148a3634104b7",
     "url": "/Dev-world/index.html"
   }
 ];
